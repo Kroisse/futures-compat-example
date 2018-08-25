@@ -1,0 +1,13 @@
+[package]
+name = "futures-compat-example"
+version = "0.1.0"
+authors = ["Eunchong Yu <kroisse@gmail.com>"]
+
+[dependencies]
+failure = "0.1"
+hyper = "0.12"
+tokio = "0.1"
+
+[dependencies.futures-preview]
+version = "0.3.0-alpha.3"
+features = ["tokio-compat"]
